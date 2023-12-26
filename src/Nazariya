@@ -1,3 +1,14 @@
-1.Synchronized Kalit so'zi--
+1.Synchronized Kalit so'zi--Java multithreadingda kerak buladi bunda Synchronized bizga qilinayotgan
+ ishlarni tartib bbilan ishlashida kerak buladi.Qisqa qilib aytganda ipni chigallashtirmaslik uchun avval
+ bitta thread bitta obectdan tuliq ishini tugatgandan kegin navbatdagi thread uz ishini bajaradi.Chalkashib
+ ketmaslik uchun. Amaliyotda threadlar bilan ishaganimizda 4000 gacha aylanganimzda kurgan eding.Synchronized
+ siz forning qiymati 4000 mingga teng bulmayotgan edi.Synchronized ishlatdik va ishlar tartiblandi .
+ thrreadlar navbat navbat ishlab qiymatni 4000 mingga tenglashtirdi
 
-2.Thread Pool--
+2.Thread Pool--ThreadPool bu bir vaqtning uzida kuplar threadlarni ishlatish. Fixed Thread Pool biz bu
+  threadPoolda threadlarni cheklangan miqdorda ishlatishimiz mumkin. Threadlar sonini biz uzimiz beramiz
+  masalan 5 ta. Va bu holata bizga 10 task kelsa . 5 ta threadimiz 5 taskni bajaradi.Qolgan 5 ta task
+  threadlarni bushashini kutib turadi va taskni qilib bulgan thread navbatdagi taskni bajarish utadi.
+  Shunday qilib tasklar bajariladi.Exucutors.ExucutorsServise orqali ThreadPool ni ishlatsak buladi.
+  Undan tashqir ThreadPoolnig yana bir qancha turalari bor newSingleThreadPool ham bor.
+  Kampyuterni harakteriskasiga qarab ham uzi Thread yaratadigan ThreadPool lar ham bor(Nomi yodimga keme qoldi).
